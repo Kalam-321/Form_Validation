@@ -86,3 +86,19 @@ form button{
 {
     color: red;
 }
+@media only screen and (max-width: 600px) {
+  .input-group label {
+    flex-basis: 100%;
+    margin-bottom: 5px;
+  }
+  .input-group input,
+  .input-group textarea {
+    flex-basis: 100%;
+    padding: 10px 0;
+  }
+  .input-group span {
+    position: relative;
+    bottom: -15px; 
+    right: 0;
+  }
+}
